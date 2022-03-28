@@ -1,0 +1,43 @@
+tx_hash: 
+data type: string
+definition: hash of the transaction
+
+from_addr: 
+data type: string
+definition: address of the sender
+
+to_arrd: 
+data type: string
+definition: address of the receiver. null when its a contract creation transaction
+
+block_number: 
+data type: integer
+definition: block number where this transaction was in
+
+token_qty: 
+data type: string
+definition: amount of tokens transferred (ERC20) / id of the token transferred (ERC721). 
+
+block_time: 
+data type: timestamp
+definition: timestamp of the block where this transaction was in
+
+block_hash:
+data type: string
+definition: hash of the block where this transaction was in
+
+gas: 
+data type: integer
+definition: gas provided by the sender
+
+gas_price: 
+data type integer
+definition: gas price provided by the sender in Wei
+
+tx_index_in_block: 
+data type integer
+definition: integer of the transactions index position in the block
+
+total_gas: 
+data type: integer
+definition: the total amount of gas used when this transaction was executed in the block
