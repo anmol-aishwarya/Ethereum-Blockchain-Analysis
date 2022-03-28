@@ -1,0 +1,19 @@
+1. List up all the blocks by their gas used in an increasing order
+
+2. List up all the blocks by their # transactions in an increasing order
+
+3. List up all the transactions by their transaction fee in an increasing order
+
+4. List up all the transactions per block in an increasing order of gas fees
+
+5. List up all the transactions in groups per contract address in an increasing order of the block#
+
+6. Search for a particular block# and then display its transactions list
+
+7. Search for a particular transaction hash code for an index within a block# and then display transaction fee and block#
+
+8. Identify and list up all the transactions originated from a particular public-key (node) and their total transaction fee
+
+9. Identify and list up all the transactions destined to a particular public-key (node) and their total transaction fee
+
+10. Identify the transaction id in a particular node (contract id) with the largest (smallest) value of tokens
