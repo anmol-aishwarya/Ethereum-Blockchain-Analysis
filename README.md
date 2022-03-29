@@ -7,7 +7,7 @@ Task 1 -
   **pip install pandas**
   
 -> Run the python code.
-  **python group8_assign1.py**
+  **python task1.py**
   
 -> This file first asks which directory the user would like to pull data from. Please enter the path of a directory.
 
